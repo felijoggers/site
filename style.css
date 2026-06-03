@@ -40,15 +40,13 @@ nav a:hover{
     color:#ff1493;
 }
 
-/* BANNER */
-
 .banner{
     height:85vh;
     background:linear-gradient(
         rgba(0,0,0,.7),
         rgba(0,0,0,.7)
     ),
-    url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    url("https://s3.amazonaws.com/chico-rei-blogs/content/images/2021/06/Os-14-melhores-filmes-cult-para-assistir-e-refletir-a-exist-ncia.jpg");
     background-size:cover;
     background-position:center;
     display:flex;
@@ -117,7 +115,7 @@ nav a:hover{
 
 .card img{
     width:100%;
-    height:350px;
+    height:550px;
     object-fit:cover;
 }
 
