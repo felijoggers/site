@@ -40,27 +40,46 @@ nav a:hover{
     color:#ff1493;
 }
 
-barra-pesquisa {
-    width: 300px; /*largura */
-    height: 40px;  /*altura */
-    padding: 0 15px;
-
-    border: 2px solid #ccc;
-    border-radius: 55px; 
-
-    font-size: 56px;
-    outline: none;
-}
-
-barra-pesquisa:focus {
-    border-color: #007bff;
-}
-
-
-
 #pesquisa {
     width: 400px;   /* largura */
     height: 40px;   /* altura */
     font-size: 16px;
-    padding: 5px 10px;
+    padding: 5px 5px;
+    border-radius: 555px;
+    background-color: rgb(47, 47, 48);
+    border: 1px solid #39ff14;
+    box-shadow:0 0 10px #ff1493;
+}
+
+.container-filmes{
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:#111;
+    border:2px solid #39ff14;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px #ff1493;
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    display:block;
+}
+
+.card h3{
+    color:#39ff14;
+    padding:10px;
+    text-align: center;
 }
