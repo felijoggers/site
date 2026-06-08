@@ -39,3 +39,28 @@ nav a{
 nav a:hover{
     color:#ff1493;
 }
+
+barra-pesquisa {
+    width: 300px; /*largura */
+    height: 40px;  /*altura */
+    padding: 0 15px;
+
+    border: 2px solid #ccc;
+    border-radius: 55px; 
+
+    font-size: 56px;
+    outline: none;
+}
+
+barra-pesquisa:focus {
+    border-color: #007bff;
+}
+
+
+
+#pesquisa {
+    width: 400px;   /* largura */
+    height: 40px;   /* altura */
+    font-size: 16px;
+    padding: 5px 10px;
+}
